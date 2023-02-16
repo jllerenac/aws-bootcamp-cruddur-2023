@@ -1,5 +1,7 @@
 # Week 0 — Billing and Architecture
 
+## Required homework
+
 Attended the live streaming. In the live session followed the steps to creat the architecture diagram
 
 
