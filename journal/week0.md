@@ -13,7 +13,7 @@ Answered the security quiz questions. I did research for some questions that I w
 Set up MFA for account
 ![image](https://user-images.githubusercontent.com/46797181/220008680-00fa978c-8611-49c3-941d-a1734469e0a4.png)
 
-
+Checked for to create organizations and enable cloudtrail
 
 ### Install AWS CLI
 As I have practiced with AWS before. I already have **aws** installed in my local machine.
