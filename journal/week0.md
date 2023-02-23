@@ -69,3 +69,8 @@ Below a PoC image.
 4. Log in with the account to verify access 
 ![image](https://user-images.githubusercontent.com/46797181/220823245-0bcbf320-d2e8-4ee7-8495-7a3352bc6668.png)
 
+### USE CLOUD SHELL
+1. Log in the console and click on the `CLI` icon on the upper right part of the window
+![image](https://user-images.githubusercontent.com/46797181/220826113-83cbdb47-aef1-453d-8727-2c52a46ce9e9.png)
+2. Once in the console enter `aws sts get-caller-identity` to see what user we are.
+![image](https://user-images.githubusercontent.com/46797181/220826438-b88baee1-0703-47bc-91ba-bf65648184f7.png)
