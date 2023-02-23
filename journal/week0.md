@@ -32,3 +32,12 @@ I use Ubuntu, so simply with **sudo apt install awscli** is good enough
 Below a PoC image.
 
 ![awscli](https://user-images.githubusercontent.com/46797181/219274204-c7ffbc00-e046-4395-9dea-b23023c85862.png)
+
+### CREATE AWS BUDGET
+1. Log in the console and search for `AWS Budget` in home dashboard, then click on it
+![image](https://user-images.githubusercontent.com/46797181/220817067-61606e1b-c532-42ef-ae38-6938a64261e5.png)
+
+2.Click on 
+
+![image](https://user-images.githubusercontent.com/46797181/220816886-bd459a29-dfa6-4185-bcb4-2bfebca16019.png)
+![image](https://user-images.githubusercontent.com/46797181/220816956-9e53bc7d-982e-4fe8-8572-a9fc63b779e6.png)
