@@ -62,6 +62,7 @@ Below a PoC image.
  1. Go to IAM, click user and select the created account.
  2. Click on `security credentials` tab and then `enable console access`
  ![image](https://user-images.githubusercontent.com/46797181/220822624-6e8c8be1-91f5-4cb3-96e5-715f157ea6e2.png)
-3. Once in console access set up a password.
+ 3. Once in console access set up a password.
+
 ![image](https://user-images.githubusercontent.com/46797181/220822771-cb8befa8-7eed-491d-a715-65bcec36b8a4.png)
 
