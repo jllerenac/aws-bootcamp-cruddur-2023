@@ -50,4 +50,6 @@ Below a PoC image.
 2. Give the user a name and either create a new group or include it in an existing one. In this case an admin group already exists
 ![image](https://user-images.githubusercontent.com/46797181/220820080-29bdf5b9-5663-4f48-98af-d4919e0a3973.png)
 
-4. 
+3. Create the user and we can verify that user is created and is part of the administrator group.
+![image](https://user-images.githubusercontent.com/46797181/220820321-4f5e5de9-db03-4923-8e0d-45e9441da9d3.png)
+ 
