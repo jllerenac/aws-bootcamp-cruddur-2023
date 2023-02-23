@@ -41,3 +41,13 @@ Below a PoC image.
 
 ![image](https://user-images.githubusercontent.com/46797181/220816886-bd459a29-dfa6-4185-bcb4-2bfebca16019.png)
 ![image](https://user-images.githubusercontent.com/46797181/220816956-9e53bc7d-982e-4fe8-8572-a9fc63b779e6.png)
+
+### CREATE AN ADMIN USER
+1. Go to IAM, click on `users` then `add users`
+![image](https://user-images.githubusercontent.com/46797181/220819904-f3f5802d-8929-4f29-8607-b10bacec1ed5.png)
+
+
+2. Give the user a name and either create a new group or include it in an existing one. In this case an admin group already exists
+![image](https://user-images.githubusercontent.com/46797181/220820080-29bdf5b9-5663-4f48-98af-d4919e0a3973.png)
+
+4. 
