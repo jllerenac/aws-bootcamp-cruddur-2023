@@ -37,7 +37,7 @@ Below a PoC image.
 1. Log in the console and search for `AWS Budget` in home dashboard, then click on it
 ![image](https://user-images.githubusercontent.com/46797181/220817067-61606e1b-c532-42ef-ae38-6938a64261e5.png)
 
-2.Click on 
+2.Click on `Create budget` and select the desired templates and specified the name and budget amount if is the case, then click on `Create budget`
 
 ![image](https://user-images.githubusercontent.com/46797181/220816886-bd459a29-dfa6-4185-bcb4-2bfebca16019.png)
 ![image](https://user-images.githubusercontent.com/46797181/220816956-9e53bc7d-982e-4fe8-8572-a9fc63b779e6.png)
