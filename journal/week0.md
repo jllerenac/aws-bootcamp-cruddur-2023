@@ -66,3 +66,6 @@ Below a PoC image.
 
 ![image](https://user-images.githubusercontent.com/46797181/220822771-cb8befa8-7eed-491d-a715-65bcec36b8a4.png)
 
+4. Log in with the account to verify access 
+![image](https://user-images.githubusercontent.com/46797181/220823245-0bcbf320-d2e8-4ee7-8495-7a3352bc6668.png)
+
