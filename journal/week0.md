@@ -78,3 +78,24 @@ To install in gitpod. I updated gitpod.yml with an automated script
 ![image](https://user-images.githubusercontent.com/46797181/220826113-83cbdb47-aef1-453d-8727-2c52a46ce9e9.png)
 2. Once in the console enter `aws sts get-caller-identity` to see what user we are.
 ![image](https://user-images.githubusercontent.com/46797181/220826438-b88baee1-0703-47bc-91ba-bf65648184f7.png)
+
+### Create a billing alarm
+
+This is going to be done on command line via git pod. First make sure we have admin credentials set up in git pod
+![image](https://user-images.githubusercontent.com/46797181/221371931-3dc458e8-f20d-4c7e-87ae-040d4886f71f.png)
+
+We can verify in git pod settings
+![image](https://user-images.githubusercontent.com/46797181/221372046-5ce37b03-3616-4db9-8412-0f49d0a3f22a.png)
+
+We need to create a SNS topic, for this in the console we search for SNS and once selected there is an input field to create a topic
+![image](https://user-images.githubusercontent.com/46797181/221372327-9920d55c-2fa3-4948-af0b-73fecca4075f.png)
+
+We'll leave it as default and create the topic
+![image](https://user-images.githubusercontent.com/46797181/221372429-cda9cc99-41fb-4841-a0c0-07b747a50ef4.png)
+
+We can also create with AWS CLI by executing `aws sns create-topic --name AWSCloudBootcamp`
+![image](https://user-images.githubusercontent.com/46797181/221372800-55da322b-d0f2-4b12-8f79-9ed297303687.png)
+
+We subscribe by executing the command `aws sns subscribe --topic-arn arn:aws:sns:us-east-1:{accountID}:AWSCloudBootcamp --protocol email --notification-endpoint josellerenacarpio@gmail.com`
+![image](https://user-images.githubusercontent.com/46797181/221373076-23f89501-ff0e-44a0-99e6-8e79f011a023.png)
+
