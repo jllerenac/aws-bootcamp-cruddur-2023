@@ -107,3 +107,9 @@ We can see in the console as well
 
 Now, the `alarmConfig.json` file has to be created
 ![image](https://user-images.githubusercontent.com/46797181/221374141-11e8adc4-4f82-4d60-8c73-f7267b530dc8.png)
+
+With the file we execute `aws cloudwatch put-metric-alarm --cli-input-json file://alarmConfig.json` to have our alarm and we can see it in cloudwatch
+![image](https://user-images.githubusercontent.com/46797181/221374894-7de5bf2a-00fb-4236-84e7-a208683075b2.png)
+![image](https://user-images.githubusercontent.com/46797181/221374908-7c7cceeb-2cf2-4364-98d5-4471d1a79c67.png)
+
+
