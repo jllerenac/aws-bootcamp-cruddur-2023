@@ -99,3 +99,8 @@ We can also create with AWS CLI by executing `aws sns create-topic --name AWSClo
 We subscribe by executing the command `aws sns subscribe --topic-arn arn:aws:sns:us-east-1:{accountID}:AWSCloudBootcamp --protocol email --notification-endpoint josellerenacarpio@gmail.com`
 ![image](https://user-images.githubusercontent.com/46797181/221373076-23f89501-ff0e-44a0-99e6-8e79f011a023.png)
 
+We'll receive an email and click on the link to activate
+![image](https://user-images.githubusercontent.com/46797181/221373154-22790584-0fcf-46c6-995f-5be3c7d0acb2.png)
+
+We can see in the console as well
+![image](https://user-images.githubusercontent.com/46797181/221373213-c4b9092a-7c98-4452-8e22-430732c19b5b.png)
