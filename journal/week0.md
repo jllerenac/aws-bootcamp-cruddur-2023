@@ -104,3 +104,6 @@ We'll receive an email and click on the link to activate
 
 We can see in the console as well
 ![image](https://user-images.githubusercontent.com/46797181/221373213-c4b9092a-7c98-4452-8e22-430732c19b5b.png)
+
+Now, the `alarmConfig.json` file has to be created
+![image](https://user-images.githubusercontent.com/46797181/221374141-11e8adc4-4f82-4d60-8c73-f7267b530dc8.png)
