@@ -33,6 +33,10 @@ Below a PoC image.
 
 ![awscli](https://user-images.githubusercontent.com/46797181/219274204-c7ffbc00-e046-4395-9dea-b23023c85862.png)
 
+To install in gitpod. I updated gitpod.yml with an automated script 
+![image](https://user-images.githubusercontent.com/46797181/221371091-622b739f-4db2-4b52-895c-d099bd149b8d.png)
+
+
 ### CREATE AWS BUDGET
 1. Log in the console and search for `AWS Budget` in home dashboard, then click on it
 ![image](https://user-images.githubusercontent.com/46797181/220817067-61606e1b-c532-42ef-ae38-6938a64261e5.png)
