@@ -23,6 +23,9 @@ https://lucid.app/documents/view/10cdb4b7-335d-4e05-935f-3769a3be26be
 Below the link for the simple diagram followed in the live stream
 https://lucid.app/lucidchart/invitations/accept/inv_1fa98927-ee9c-4156-a297-75e7d0ed60ef
 
+### Napking diagram
+![image](https://user-images.githubusercontent.com/46797181/221378969-60d05f46-38e8-4690-9d26-338a8c99fd05.png)
+
 
 ### Install AWS CLI
 As I have practiced with AWS before. I already have **aws** installed in my local machine.
