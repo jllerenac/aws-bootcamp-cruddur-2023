@@ -35,3 +35,9 @@ CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 
 ![image](https://user-images.githubusercontent.com/46797181/221719296-cf484ac5-24a4-4135-a16d-2eb39f226955.png)
 
+Now lets install the requirements for our application with `pip3 install -r requirements.txt`
+
+![image](https://user-images.githubusercontent.com/46797181/221723586-647948f2-b6c2-4895-a147-d708dfe46066.png)
+
+
+
