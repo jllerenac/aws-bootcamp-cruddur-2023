@@ -49,3 +49,4 @@ export BACKEND_URL="*"
 ```
 Then we can run the application
 ![image](https://user-images.githubusercontent.com/46797181/221751795-a3f8f170-9dca-4328-8fec-998623d8a974.png)
+
