@@ -114,3 +114,45 @@ To run the file content, we execute  `docker compose -f "docker-compose.yml" up 
 ![image](https://user-images.githubusercontent.com/46797181/221762002-d56b8bf6-5f78-44b0-8494-71c1fed0455f.png)
 
 ### **IMPORTANT NOTICE** 
+
+At this point the application is in development stage. And for this, when using the desktop version of VS code, it is important to change the composer file to look like the one below:
+
+```
+version: "3.8"
+services:
+  backend-flask:
+    environment:
+   #   FRONTEND_URL: "https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+   #   BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+       FRONTEND_URL: "http://localhost:3000"
+       BACKEND_URL: "http://localhost:4567"
+    build: ./backend-flask
+    ports:
+      - "4567:4567"
+    volumes:
+      - ./backend-flask:/backend-flask
+  frontend-react-js:
+    environment:
+   #   REACT_APP_BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+       REACT_APP_BACKEND_URL: "http://localhost:4567"
+    build: ./frontend-react-js
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend-react-js:/frontend-react-js
+
+# the name flag is a hack to change the default prepend folder
+# name when outputting the image names
+networks: 
+  internal-network:
+    driver: bridge
+    name: cruddur
+```
+The application will only see it as local host and the hosts specified initially will give different error like CORS and simply will not be able to connect.
+
+With the changes application is working fine.
+![image](https://user-images.githubusercontent.com/46797181/221766122-7493460a-36f1-402d-a8a3-40a6d92341f2.png)
+
+With the application working we can make changes to see reflected in the application
+![image](https://user-images.githubusercontent.com/46797181/221766803-fd530863-c809-4954-a030-536eccf91ea1.png)
+![image](https://user-images.githubusercontent.com/46797181/221766900-8ba592ee-59cf-4382-b62a-6880020d0ed1.png)
