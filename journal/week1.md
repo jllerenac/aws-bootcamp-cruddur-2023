@@ -50,3 +50,11 @@ export BACKEND_URL="*"
 Then we can run the application
 ![image](https://user-images.githubusercontent.com/46797181/221751795-a3f8f170-9dca-4328-8fec-998623d8a974.png)
 
+Next step is to build the docker container with `docker build -t  backend-flask ./backend-flask`
+![image](https://user-images.githubusercontent.com/46797181/221758125-7023a3a9-a89b-4b50-8172-6dc064dab0ce.png)
+
+Then we have to run with the command `docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask`
+Notice that we need to specify the environment variables and the container image has to go at the last in order to get the env variables set up first. Another important thing is to use single quotes for the variable due to the shell interpretation of the double quotes. 
+
+![image](https://user-images.githubusercontent.com/46797181/221758702-aab8b46d-5670-4d11-81e4-2dd558c67953.png)
+
