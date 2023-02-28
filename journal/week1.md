@@ -39,5 +39,13 @@ Now lets install the requirements for our application with `pip3 install -r requ
 
 ![image](https://user-images.githubusercontent.com/46797181/221723586-647948f2-b6c2-4895-a147-d708dfe46066.png)
 
+Then we run the server with `python3 -m flask run --host=0.0.0.0 --port=4567`
+![image](https://user-images.githubusercontent.com/46797181/221750324-2d08d683-684c-4483-8219-56377bc8c8df.png)
 
-
+The application to work needs to have the following env variables set up
+```
+export FRONTEND_URL="*"
+export BACKEND_URL="*"
+```
+Then we can run the application
+![image](https://user-images.githubusercontent.com/46797181/221751795-a3f8f170-9dca-4328-8fec-998623d8a974.png)
